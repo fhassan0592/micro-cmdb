@@ -23,7 +23,7 @@ SALT=xxxx
 
 [Node.js](https://nodejs.org/) v10+ is recommended.
 
-Clone the repo into your desired folder, then install dependencies and start the server. For production level use, 
+Clone the repo into your desired folder, then install dependencies and start the server. For production level use, please use proprietary certificates (if locally hosted), and make sure to implement load balancing if this is going to be heavily used.
 
 ```sh
 $ git clone https://github.com/fhassan0592/micro-cmdb.git .
